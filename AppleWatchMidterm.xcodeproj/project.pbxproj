@@ -22,6 +22,9 @@
 		C30D5E061BE154D80063E496 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D5E051BE154D80063E496 /* ExtensionDelegate.swift */; };
 		C30D5E081BE154D80063E496 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D5E071BE154D80063E496 /* NotificationController.swift */; };
 		C30D5E0A1BE154D80063E496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C30D5E091BE154D80063E496 /* Assets.xcassets */; };
+		C30D5E201BE156D60063E496 /* TableViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D5E1F1BE156D60063E496 /* TableViewer.swift */; settings = {ASSET_TAGS = (); }; };
+		C30D5E221BE158110063E496 /* MbpsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D5E211BE158110063E496 /* MbpsInfo.swift */; settings = {ASSET_TAGS = (); }; };
+		C30D5E241BE15AA60063E496 /* conversionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D5E231BE15AA60063E496 /* conversionRow.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +108,9 @@
 		C30D5E071BE154D80063E496 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		C30D5E091BE154D80063E496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C30D5E0B1BE154D80063E496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C30D5E1F1BE156D60063E496 /* TableViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewer.swift; sourceTree = "<group>"; };
+		C30D5E211BE158110063E496 /* MbpsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MbpsInfo.swift; sourceTree = "<group>"; };
+		C30D5E231BE15AA60063E496 /* conversionRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = conversionRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +214,9 @@
 			isa = PBXGroup;
 			children = (
 				C30D5E031BE154D80063E496 /* InterfaceController.swift */,
+				C30D5E1F1BE156D60063E496 /* TableViewer.swift */,
+				C30D5E211BE158110063E496 /* MbpsInfo.swift */,
+				C30D5E231BE15AA60063E496 /* conversionRow.swift */,
 				C30D5E051BE154D80063E496 /* ExtensionDelegate.swift */,
 				C30D5E071BE154D80063E496 /* NotificationController.swift */,
 				C30D5E091BE154D80063E496 /* Assets.xcassets */,
@@ -442,7 +451,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C30D5E081BE154D80063E496 /* NotificationController.swift in Sources */,
+				C30D5E221BE158110063E496 /* MbpsInfo.swift in Sources */,
+				C30D5E241BE15AA60063E496 /* conversionRow.swift in Sources */,
 				C30D5E061BE154D80063E496 /* ExtensionDelegate.swift in Sources */,
+				C30D5E201BE156D60063E496 /* TableViewer.swift in Sources */,
 				C30D5E041BE154D80063E496 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

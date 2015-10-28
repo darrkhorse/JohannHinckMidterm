@@ -10,11 +10,32 @@ import WatchKit
 import Foundation
 
 
-class InterfaceController: WKInterfaceController {
+class InterfaceController: WKInterfaceController
+{
 
-    override func awakeWithContext(context: AnyObject?) {
-        super.awakeWithContext(context)
+    @IBOutlet var thePicker: WKInterfacePicker!
+    
+    @IBAction func pickerDidChange(value: Int)
+    {
+        MbpsInfo.mbps = value + 1
         
+
+    }
+    
+    @IBOutlet var selectButton: WKInterfaceButton!
+    
+    override func awakeWithContext(context: AnyObject?)
+    {
+        super.awakeWithContext(context)
+        var thePickerItems = [WKPickerItem]()
+        
+        for(var i = 1; i <= 1000; i++)
+        {
+            thePickerItems.append(WKPickerItem())
+            thePickerItems[i-1].title = "\(i)"
+        }
+        
+        self.thePicker.setItems(thePickerItems)
         // Configure interface objects here.
     }
 
